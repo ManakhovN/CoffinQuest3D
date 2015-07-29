@@ -1,0 +1,956 @@
+fileFormatVersion: 2
+guid: 8a799ce06424e834885575de1ed788a8
+timeCreated: 1435847496
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: board_1
+    100004: board_1_end
+    100006: board_2
+    100008: board_2_end
+    100010: //RootNode
+    100012: coffin
+    100014: coffin_board_1
+    100016: coffin_board_2
+    100018: coffin_open
+    100020: cover
+    100022: general
+    100024: ground
+    100026: key
+    100028: Key.001
+    100030: key_end
+    100032: map
+    100034: map_centr
+    100036: map_centr_end
+    100038: map_general
+    100040: map_L
+    100042: map_L_end
+    100044: map_R
+    100046: map_R_end
+    100048: maps
+    100050: skeleton
+    100052: Camera
+    100054: coffin_open_board
+    400000: Armature
+    400002: board_1
+    400004: board_1_end
+    400006: board_2
+    400008: board_2_end
+    400010: //RootNode
+    400012: coffin
+    400014: coffin_board_1
+    400016: coffin_board_2
+    400018: coffin_open
+    400020: cover
+    400022: general
+    400024: ground
+    400026: key
+    400028: Key.001
+    400030: key_end
+    400032: map
+    400034: map_centr
+    400036: map_centr_end
+    400038: map_general
+    400040: map_L
+    400042: map_L_end
+    400044: map_R
+    400046: map_R_end
+    400048: maps
+    400050: skeleton
+    400052: Camera
+    400054: coffin_open_board
+    2300000: ground
+    2300002: skeleton
+    3300000: ground
+    3300002: skeleton
+    4300000: ground
+    4300002: skeleton
+    4300004: map
+    4300006: maps
+    4300008: Key.001
+    4300010: coffin
+    4300012: coffin_open
+    4300014: coffin_board_1
+    4300016: coffin_board_2
+    4300018: coffin_open_board
+    7400000: ground|Armature.001|Take 001|Take 001:BaseAnimation
+    7400002: ground|kay
+    7400004: Armature|Armature.001|Take 001|Take 001:BaseAnimation
+    7400006: Shake
+    7400008: Armature|kay
+    7400010: skeleton|Armature.001|Take 001|Take 001:BaseAnimation
+    7400012: skeleton|kay
+    7400014: map|Armature.001|Take 001|Take 001:BaseAnimation
+    7400016: map|kay
+    7400018: maps|Armature.001|Take 001|Take 001:BaseAnimation
+    7400020: maps|kay
+    7400022: Key.001|Armature.001|Take 001|Take 001:BaseAnimation
+    7400024: Key.001|kay
+    7400026: coffin|Armature.001|Take 001|Take 001:BaseAnimation
+    7400028: coffin|kay
+    7400030: coffin_open|Armature.001|Take 001|Take 001:BaseAnimation
+    7400032: coffin_open|kay
+    7400034: coffin_board_1|Armature.001|Take 001|Take 001:BaseAnimation
+    7400036: coffin_board_1|kay
+    7400038: coffin_board_2|Armature.001|Take 001|Take 001:BaseAnimation
+    7400040: coffin_board_2|kay
+    7400042: Boards
+    7400044: KeyWait
+    7400046: KeyRotate
+    7400048: CoverBoom
+    7400050: CoverOpen
+    7400052: MapWait
+    7400054: MapOpen
+    7400056: MapOpened
+    7400058: CoffinStay
+    9500000: //RootNode
+    13700000: coffin
+    13700002: coffin_board_1
+    13700004: coffin_board_2
+    13700006: coffin_open
+    13700008: Key.001
+    13700010: map
+    13700012: maps
+    13700014: coffin_open_board
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Shake
+      takeName: Armature|coffin
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/general
+        weight: 1
+      - path: Armature/general/board_1
+        weight: 1
+      - path: Armature/general/board_1/board_1_end
+        weight: 1
+      - path: Armature/general/board_2
+        weight: 1
+      - path: Armature/general/board_2/board_2_end
+        weight: 1
+      - path: Armature/general/cover
+        weight: 1
+      - path: Armature/general/cover/key
+        weight: 1
+      - path: Armature/general/cover/key/key_end
+        weight: 1
+      - path: Armature/general/map_general
+        weight: 1
+      - path: Armature/general/map_general/map_centr
+        weight: 1
+      - path: Armature/general/map_general/map_centr/map_centr_end
+        weight: 1
+      - path: Armature/general/map_general/map_L
+        weight: 1
+      - path: Armature/general/map_general/map_L/map_L_end
+        weight: 1
+      - path: Armature/general/map_general/map_R
+        weight: 1
+      - path: Armature/general/map_general/map_R/map_R_end
+        weight: 1
+      - path: Armature/general/skeleton
+        weight: 1
+      - path: coffin
+        weight: 1
+      - path: coffin_board_1
+        weight: 1
+      - path: coffin_board_2
+        weight: 1
+      - path: coffin_open
+        weight: 1
+      - path: ground
+        weight: 1
+      - path: Key.001
+        weight: 1
+      - path: map
+        weight: 1
+      - path: maps
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Boards
+      takeName: Armature|coffin
+      firstFrame: 40
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/general
+        weight: 1
+      - path: Armature/general/board_1
+        weight: 1
+      - path: Armature/general/board_1/board_1_end
+        weight: 1
+      - path: Armature/general/board_2
+        weight: 1
+      - path: Armature/general/board_2/board_2_end
+        weight: 1
+      - path: Armature/general/cover
+        weight: 1
+      - path: Armature/general/cover/key
+        weight: 1
+      - path: Armature/general/cover/key/key_end
+        weight: 1
+      - path: Armature/general/map_general
+        weight: 1
+      - path: Armature/general/map_general/map_centr
+        weight: 1
+      - path: Armature/general/map_general/map_centr/map_centr_end
+        weight: 1
+      - path: Armature/general/map_general/map_L
+        weight: 1
+      - path: Armature/general/map_general/map_L/map_L_end
+        weight: 1
+      - path: Armature/general/map_general/map_R
+        weight: 1
+      - path: Armature/general/map_general/map_R/map_R_end
+        weight: 1
+      - path: Armature/general/skeleton
+        weight: 1
+      - path: coffin
+        weight: 1
+      - path: coffin_board_1
+        weight: 1
+      - path: coffin_board_2
+        weight: 1
+      - path: coffin_open
+        weight: 1
+      - path: ground
+        weight: 1
+      - path: Key.001
+        weight: 1
+      - path: map
+        weight: 1
+      - path: maps
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: KeyWait
+      takeName: Armature|coffin
+      firstFrame: 100
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/general
+        weight: 1
+      - path: Armature/general/board_1
+        weight: 1
+      - path: Armature/general/board_1/board_1_end
+        weight: 1
+      - path: Armature/general/board_2
+        weight: 1
+      - path: Armature/general/board_2/board_2_end
+        weight: 1
+      - path: Armature/general/cover
+        weight: 1
+      - path: Armature/general/cover/key
+        weight: 1
+      - path: Armature/general/cover/key/key_end
+        weight: 1
+      - path: Armature/general/map_general
+        weight: 1
+      - path: Armature/general/map_general/map_centr
+        weight: 1
+      - path: Armature/general/map_general/map_centr/map_centr_end
+        weight: 1
+      - path: Armature/general/map_general/map_L
+        weight: 1
+      - path: Armature/general/map_general/map_L/map_L_end
+        weight: 1
+      - path: Armature/general/map_general/map_R
+        weight: 1
+      - path: Armature/general/map_general/map_R/map_R_end
+        weight: 1
+      - path: Armature/general/skeleton
+        weight: 1
+      - path: coffin
+        weight: 1
+      - path: coffin_board_1
+        weight: 1
+      - path: coffin_board_2
+        weight: 1
+      - path: coffin_open
+        weight: 1
+      - path: ground
+        weight: 1
+      - path: Key.001
+        weight: 1
+      - path: map
+        weight: 1
+      - path: maps
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: KeyRotate
+      takeName: Armature|coffin
+      firstFrame: 120
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/general
+        weight: 1
+      - path: Armature/general/board_1
+        weight: 1
+      - path: Armature/general/board_1/board_1_end
+        weight: 1
+      - path: Armature/general/board_2
+        weight: 1
+      - path: Armature/general/board_2/board_2_end
+        weight: 1
+      - path: Armature/general/cover
+        weight: 1
+      - path: Armature/general/cover/key
+        weight: 1
+      - path: Armature/general/cover/key/key_end
+        weight: 1
+      - path: Armature/general/map_general
+        weight: 1
+      - path: Armature/general/map_general/map_centr
+        weight: 1
+      - path: Armature/general/map_general/map_centr/map_centr_end
+        weight: 1
+      - path: Armature/general/map_general/map_L
+        weight: 1
+      - path: Armature/general/map_general/map_L/map_L_end
+        weight: 1
+      - path: Armature/general/map_general/map_R
+        weight: 1
+      - path: Armature/general/map_general/map_R/map_R_end
+        weight: 1
+      - path: Armature/general/skeleton
+        weight: 1
+      - path: coffin
+        weight: 1
+      - path: coffin_board_1
+        weight: 1
+      - path: coffin_board_2
+        weight: 1
+      - path: coffin_open
+        weight: 1
+      - path: ground
+        weight: 1
+      - path: Key.001
+        weight: 1
+      - path: map
+        weight: 1
+      - path: maps
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CoverBoom
+      takeName: Armature|coffin
+      firstFrame: 150
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/general
+        weight: 1
+      - path: Armature/general/board_1
+        weight: 1
+      - path: Armature/general/board_1/board_1_end
+        weight: 1
+      - path: Armature/general/board_2
+        weight: 1
+      - path: Armature/general/board_2/board_2_end
+        weight: 1
+      - path: Armature/general/cover
+        weight: 1
+      - path: Armature/general/cover/key
+        weight: 1
+      - path: Armature/general/cover/key/key_end
+        weight: 1
+      - path: Armature/general/map_general
+        weight: 1
+      - path: Armature/general/map_general/map_centr
+        weight: 1
+      - path: Armature/general/map_general/map_centr/map_centr_end
+        weight: 1
+      - path: Armature/general/map_general/map_L
+        weight: 1
+      - path: Armature/general/map_general/map_L/map_L_end
+        weight: 1
+      - path: Armature/general/map_general/map_R
+        weight: 1
+      - path: Armature/general/map_general/map_R/map_R_end
+        weight: 1
+      - path: Armature/general/skeleton
+        weight: 1
+      - path: coffin
+        weight: 1
+      - path: coffin_board_1
+        weight: 1
+      - path: coffin_board_2
+        weight: 1
+      - path: coffin_open
+        weight: 1
+      - path: ground
+        weight: 1
+      - path: Key.001
+        weight: 1
+      - path: map
+        weight: 1
+      - path: maps
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CoverOpen
+      takeName: Armature|coffin
+      firstFrame: 215
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/general
+        weight: 1
+      - path: Armature/general/board_1
+        weight: 1
+      - path: Armature/general/board_1/board_1_end
+        weight: 1
+      - path: Armature/general/board_2
+        weight: 1
+      - path: Armature/general/board_2/board_2_end
+        weight: 1
+      - path: Armature/general/cover
+        weight: 1
+      - path: Armature/general/cover/key
+        weight: 1
+      - path: Armature/general/cover/key/key_end
+        weight: 1
+      - path: Armature/general/map_general
+        weight: 1
+      - path: Armature/general/map_general/map_centr
+        weight: 1
+      - path: Armature/general/map_general/map_centr/map_centr_end
+        weight: 1
+      - path: Armature/general/map_general/map_L
+        weight: 1
+      - path: Armature/general/map_general/map_L/map_L_end
+        weight: 1
+      - path: Armature/general/map_general/map_R
+        weight: 1
+      - path: Armature/general/map_general/map_R/map_R_end
+        weight: 1
+      - path: Armature/general/skeleton
+        weight: 1
+      - path: coffin
+        weight: 1
+      - path: coffin_board_1
+        weight: 1
+      - path: coffin_board_2
+        weight: 1
+      - path: coffin_open
+        weight: 1
+      - path: ground
+        weight: 1
+      - path: Key.001
+        weight: 1
+      - path: map
+        weight: 1
+      - path: maps
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MapWait
+      takeName: Armature|coffin
+      firstFrame: 240
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/general
+        weight: 1
+      - path: Armature/general/board_1
+        weight: 1
+      - path: Armature/general/board_1/board_1_end
+        weight: 1
+      - path: Armature/general/board_2
+        weight: 1
+      - path: Armature/general/board_2/board_2_end
+        weight: 1
+      - path: Armature/general/cover
+        weight: 1
+      - path: Armature/general/cover/key
+        weight: 1
+      - path: Armature/general/cover/key/key_end
+        weight: 1
+      - path: Armature/general/map_general
+        weight: 1
+      - path: Armature/general/map_general/map_centr
+        weight: 1
+      - path: Armature/general/map_general/map_centr/map_centr_end
+        weight: 1
+      - path: Armature/general/map_general/map_L
+        weight: 1
+      - path: Armature/general/map_general/map_L/map_L_end
+        weight: 1
+      - path: Armature/general/map_general/map_R
+        weight: 1
+      - path: Armature/general/map_general/map_R/map_R_end
+        weight: 1
+      - path: Armature/general/skeleton
+        weight: 1
+      - path: coffin
+        weight: 1
+      - path: coffin_board_1
+        weight: 1
+      - path: coffin_board_2
+        weight: 1
+      - path: coffin_open
+        weight: 1
+      - path: ground
+        weight: 1
+      - path: Key.001
+        weight: 1
+      - path: map
+        weight: 1
+      - path: maps
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MapOpen
+      takeName: Armature|coffin
+      firstFrame: 240
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/general
+        weight: 1
+      - path: Armature/general/board_1
+        weight: 1
+      - path: Armature/general/board_1/board_1_end
+        weight: 1
+      - path: Armature/general/board_2
+        weight: 1
+      - path: Armature/general/board_2/board_2_end
+        weight: 1
+      - path: Armature/general/cover
+        weight: 1
+      - path: Armature/general/cover/key
+        weight: 1
+      - path: Armature/general/cover/key/key_end
+        weight: 1
+      - path: Armature/general/map_general
+        weight: 1
+      - path: Armature/general/map_general/map_centr
+        weight: 1
+      - path: Armature/general/map_general/map_centr/map_centr_end
+        weight: 1
+      - path: Armature/general/map_general/map_L
+        weight: 1
+      - path: Armature/general/map_general/map_L/map_L_end
+        weight: 1
+      - path: Armature/general/map_general/map_R
+        weight: 1
+      - path: Armature/general/map_general/map_R/map_R_end
+        weight: 1
+      - path: Armature/general/skeleton
+        weight: 1
+      - path: coffin
+        weight: 1
+      - path: coffin_board_1
+        weight: 1
+      - path: coffin_board_2
+        weight: 1
+      - path: coffin_open
+        weight: 1
+      - path: ground
+        weight: 1
+      - path: Key.001
+        weight: 1
+      - path: map
+        weight: 1
+      - path: maps
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MapOpened
+      takeName: Armature|coffin
+      firstFrame: 270
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/general
+        weight: 1
+      - path: Armature/general/board_1
+        weight: 1
+      - path: Armature/general/board_1/board_1_end
+        weight: 1
+      - path: Armature/general/board_2
+        weight: 1
+      - path: Armature/general/board_2/board_2_end
+        weight: 1
+      - path: Armature/general/cover
+        weight: 1
+      - path: Armature/general/cover/key
+        weight: 1
+      - path: Armature/general/cover/key/key_end
+        weight: 1
+      - path: Armature/general/map_general
+        weight: 1
+      - path: Armature/general/map_general/map_centr
+        weight: 1
+      - path: Armature/general/map_general/map_centr/map_centr_end
+        weight: 1
+      - path: Armature/general/map_general/map_L
+        weight: 1
+      - path: Armature/general/map_general/map_L/map_L_end
+        weight: 1
+      - path: Armature/general/map_general/map_R
+        weight: 1
+      - path: Armature/general/map_general/map_R/map_R_end
+        weight: 1
+      - path: Armature/general/skeleton
+        weight: 1
+      - path: coffin
+        weight: 1
+      - path: coffin_board_1
+        weight: 1
+      - path: coffin_board_2
+        weight: 1
+      - path: coffin_open
+        weight: 1
+      - path: ground
+        weight: 1
+      - path: Key.001
+        weight: 1
+      - path: map
+        weight: 1
+      - path: maps
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CoffinStay
+      takeName: Armature|coffin
+      firstFrame: 1
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/general
+        weight: 1
+      - path: Armature/general/board_1
+        weight: 1
+      - path: Armature/general/board_1/board_1_end
+        weight: 1
+      - path: Armature/general/board_2
+        weight: 1
+      - path: Armature/general/board_2/board_2_end
+        weight: 1
+      - path: Armature/general/cover
+        weight: 1
+      - path: Armature/general/cover/key
+        weight: 1
+      - path: Armature/general/cover/key/key_end
+        weight: 1
+      - path: Armature/general/map_general
+        weight: 1
+      - path: Armature/general/map_general/map_centr
+        weight: 1
+      - path: Armature/general/map_general/map_centr/map_centr_end
+        weight: 1
+      - path: Armature/general/map_general/map_L
+        weight: 1
+      - path: Armature/general/map_general/map_L/map_L_end
+        weight: 1
+      - path: Armature/general/map_general/map_R
+        weight: 1
+      - path: Armature/general/map_general/map_R/map_R_end
+        weight: 1
+      - path: Armature/general/skeleton
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: coffin
+        weight: 1
+      - path: coffin_open
+        weight: 1
+      - path: ground
+        weight: 1
+      - path: Key.001
+        weight: 1
+      - path: map
+        weight: 1
+      - path: maps
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
