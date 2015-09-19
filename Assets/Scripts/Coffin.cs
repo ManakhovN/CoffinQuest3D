@@ -4,6 +4,8 @@ using System.Collections;
 public class Coffin : MonoBehaviour {
     private AudioSource audioSource;
     public CameraFilterPack_TV_Vintage filter;
+    public HideScript hideScripts;
+    public GameObject hintsButton;
     public void Start()
     {
         audioSource = this.GetComponent<AudioSource>();
@@ -33,5 +35,11 @@ public class Coffin : MonoBehaviour {
     public void turnOffFilter()
     {
         filter.enabled = false;
+    }
+
+    public void showTips()
+    {
+        hideScripts.Show();
+        hintsButton.SetActive(false);
     }
 }
