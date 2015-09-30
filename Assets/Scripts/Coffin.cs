@@ -6,6 +6,7 @@ public class Coffin : MonoBehaviour {
     public CameraFilterPack_TV_Vintage filter;
     public HideScript hideScripts;
     public GameObject hintsButton;
+    public AudioSource backgrMusic;
     public void Start()
     {
         audioSource = this.GetComponent<AudioSource>();
@@ -20,6 +21,25 @@ public class Coffin : MonoBehaviour {
         }
     }
 
+    public void Update()
+    {
+        if (this.audioSource != null)
+        {
+            if (this.audioSource.isPlaying == false)
+                backgrMusic.volume = 0.1f;
+        }
+    }
+
+    public void PlaySoundAndLowBackgrSound(AudioClip clip)
+    {
+        if (this.audioSource != null)
+        {
+            audioSource.clip = clip;
+            audioSource.Play();
+            audioSource.loop = false;
+            backgrMusic.volume = 0.01f;
+        }
+    }
     public void hideKey()
     {
         GameObject key = GameObject.Find("Key");

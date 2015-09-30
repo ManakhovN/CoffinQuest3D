@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
-
-public class HideScript : MonoBehaviour {
+using UnityEngine.EventSystems;
+public class HideScript : MonoBehaviour, IPointerClickHandler {
     public GameObject target;
     public RectTransform text;
     bool hide = false;
     private Vector3 uno = new Vector3(1f, 1f, 1f);
     private RectTransform rect;
-
+    public GameObject tipsButton;
     public void Start()
     {
         rect = this.GetComponent<RectTransform>();
@@ -15,17 +15,17 @@ public class HideScript : MonoBehaviour {
 
     public void Update()
     {
-        text.sizeDelta = new Vector2(rect.rect.height-20f, rect.rect.width-20f);
+        text.sizeDelta = new Vector2(0.9f*rect.rect.height, 0.9f*rect.rect.width);
         if (hide == false)
             {
-                this.transform.localPosition = Vector3.Lerp(this.transform.localPosition, Vector3.zero, 0.1f);
-                this.transform.localScale = Vector3.Lerp(this.transform.localScale, uno, 0.1f);
+                this.transform.localPosition = Vector3.Lerp(this.transform.localPosition, Vector3.zero, 0.3f);
+                this.transform.localScale = Vector3.Lerp(this.transform.localScale, uno, 0.3f);
             }
             else
             {
             
-                this.transform.localPosition = Vector3.Lerp(this.transform.localPosition, target.transform.localPosition, 0.1f);
-                this.transform.localScale = Vector3.Lerp(this.transform.localScale, Vector3.zero, 0.1f);
+                this.transform.localPosition = Vector3.Lerp(this.transform.localPosition, target.transform.localPosition, 0.3f);
+                this.transform.localScale = Vector3.Lerp(this.transform.localScale, Vector3.zero, 0.3f);
                 if (this.transform.localScale.x < 0.05f)
                 {
                     hide = false;
@@ -37,12 +37,17 @@ public class HideScript : MonoBehaviour {
     public void Hide()
     {
         this.hide = true;
-        Debug.Log("click");
     }
 
     public void Show()
     {
         this.hide = false;
         this.gameObject.SetActive(true);
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        Hide();
+        tipsButton.SetActive(true);
     }
 }
