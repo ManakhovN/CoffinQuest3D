@@ -15,7 +15,7 @@ public class HideScript : MonoBehaviour, IPointerClickHandler {
 
     public void Update()
     {
-        text.sizeDelta = new Vector2(0.9f*rect.rect.height, 0.75f*rect.rect.width);
+        text.sizeDelta = new Vector2(0.9f*rect.rect.height, 0.85f*rect.rect.width);
         if (hide == false)
             {
                 this.transform.localPosition = Vector3.Lerp(this.transform.localPosition, Vector3.zero, 0.3f);
